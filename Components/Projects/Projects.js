@@ -1,5 +1,5 @@
 import { PROJECTS } from "../../Constants";
-import "./projects.css";
+import "./Projects.css";
 
 export const renderProjects = (filteredProjects = PROJECTS) => {
   const projectsContainer = document.querySelector("#page-content");
