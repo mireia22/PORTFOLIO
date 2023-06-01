@@ -1,0 +1,126 @@
+h4 {
+  margin: 1rem 0rem;
+  color: var(--font-color);
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.projects-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0rem 2rem;
+}
+
+.project-container {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border: 4px dotted var(--secondary-color-blue);
+  border-radius: 10px;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
+
+.project-text {
+  gap: 1rem;
+  line-height: 2rem;
+}
+
+.project-text > h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.tools-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 400;
+}
+
+.tools {
+  line-height: 2rem;
+}
+
+.tools-title > img {
+  width: 1.5rem;
+}
+
+.tools > p {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  background: -webkit-linear-gradient(
+    var(--font-color),
+    var(--secondary-color-blue)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.preview {
+  width: 13rem;
+  height: auto;
+}
+
+.preview > img {
+  border-radius: 10px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.anchores {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.anchores > a {
+  color: var(--font-color);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.anchores > a:hover {
+  color: var(--secondary-color-blue);
+}
+
+@media screen and (width > 1023px) {
+  .projects-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+
+  .project-container {
+    width: 28rem;
+    height: 35rem;
+  }
+
+  .preview {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .preview > img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+}

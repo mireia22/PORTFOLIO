@@ -1,0 +1,118 @@
+.about-text {
+  color: var(--font-color);
+  text-align: center;
+  word-spacing: 3px;
+  margin-bottom: 2rem;
+  padding: 0rem 2rem;
+}
+
+.first-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 1.5em;
+}
+
+.first-text > h3 {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.my-image {
+  margin: auto;
+  width: 12rem;
+  height: 12rem;
+  border: 5px solid var(--secondary-color-blue);
+  background: -webkit-linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(6, 90, 96, 0.7)
+  );
+  -webkit-text-fill-color: transparent;
+  border-radius: 50%;
+}
+.my-image img {
+  border-radius: 50%;
+  justify-content: center;
+  width: 15rem;
+  height: 11.5rem;
+  object-position: -1.8rem 0rem;
+}
+
+.text-animate > h1 {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  background: -webkit-linear-gradient(
+    var(--secondary-color-blue),
+    var(--primary-color-purple)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-top: 1rem;
+}
+
+.about-text > p {
+  margin: 1rem 0rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+@media screen and (width > 1023px) {
+  .about-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-text {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+  }
+
+  .first-text {
+    align-items: center;
+    font-size: 1.3rem;
+    gap: 2rem;
+  }
+
+  .first-text > h3 {
+    font-size: 1.3rem;
+  }
+
+  .first-text > h1 > span {
+    font-size: 5rem;
+  }
+
+  .my-image {
+    width: 20rem;
+    height: 20rem;
+  }
+  .my-image img {
+    width: 25rem;
+    height: 19.5rem;
+    object-position: -2.75rem 0rem;
+  }
+
+  .text-animate > h1 {
+    font-size: 4.5rem;
+    line-height: 7rem;
+    margin-top: 0rem;
+  }
+
+  .about-text > p {
+    margin-top: 0rem;
+    justify-self: center;
+    padding: 2rem 10rem;
+    font-size: 1.1rem;
+  }
+
+  .about-contact-anchor {
+    max-width: 10rem;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}

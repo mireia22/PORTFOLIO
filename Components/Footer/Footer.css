@@ -1,0 +1,10 @@
+.footer-content {
+  padding: 0.5rem;
+  text-align: center;
+  color: var(--font-color);
+  background: -webkit-linear-gradient(
+    var(--tertiary-color-black),
+    var(--primary-color-purple)
+  );
+  font-size: 0.7rem;
+}
