@@ -51,7 +51,7 @@
   margin: 0rem 0.5rem;
 }
 
-@media screen and (width > 1023px) {
+@media screen and (min-width: 1023px) {
   .hero-title {
     font-size: 4rem;
     margin-left: 2rem;

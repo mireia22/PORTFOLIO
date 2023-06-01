@@ -100,7 +100,7 @@ h4 {
   color: var(--secondary-color-blue);
 }
 
-@media screen and (width > 1023px) {
+@media screen and (min-width: 1023px) {
   .projects-box {
     display: flex;
     flex-direction: row;

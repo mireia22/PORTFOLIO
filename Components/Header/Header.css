@@ -44,7 +44,7 @@
   border: 1px solid var(--font-color);
 }
 
-@media screen and (width > 1023px) {
+@media screen and (min-width: 1023px) {
   .header {
     flex-direction: row;
     height: 2.5rem;

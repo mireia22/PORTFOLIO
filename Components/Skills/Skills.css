@@ -37,7 +37,7 @@
   font-weight: 500;
 }
 
-@media screen and (width > 1023px) {
+@media screen and (min-widht: 1023px) {
   .skill-icon {
     width: 5rem;
     height: 5rem;

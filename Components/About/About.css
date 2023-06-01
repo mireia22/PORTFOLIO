@@ -47,6 +47,7 @@
     var(--secondary-color-blue),
     var(--primary-color-purple)
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3rem;
@@ -62,7 +63,7 @@
   line-height: 1.5rem;
 }
 
-@media screen and (width > 1023px) {
+@media screen and (min-width: 1023px) {
   .about-section {
     display: flex;
     flex-direction: column;
