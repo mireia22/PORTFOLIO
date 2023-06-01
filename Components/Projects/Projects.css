@@ -65,6 +65,7 @@ h4 {
     var(--font-color),
     var(--secondary-color-blue)
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
