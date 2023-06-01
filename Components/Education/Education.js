@@ -14,7 +14,7 @@ export const renderStudies = () => {
             <div class="education-content">
               <div class="content">
                 <div class="year">       
-                    <img src="./public/assets/icons/calendar.png" alt="calendar" />
+                    <img src="./assets/icons/calendar.png" alt="calendar" />
                     ${studie.year}
                 </div>
                 <h3>${studie.degree}</h3>

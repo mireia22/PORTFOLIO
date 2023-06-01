@@ -22,7 +22,7 @@ export const renderHero = () => {
         </div>
         <div class="hero-anchor">
           <a href="${aboutAnchor.href}" class="about-anchor">${aboutAnchor.text}</a>
-          <img src="./public/assets/icons/down-arrow.png" alt="arrow" />
+          <img src="./assets/icons/down-arrow.png" alt="arrow" />
         </div>
         <div class="hero-logo">
           ${logoTemplate}

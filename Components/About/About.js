@@ -15,7 +15,7 @@ export const renderAbout = () => {
         </div>
 
         <div class="my-image">       
-          <img src="./public/assets/images/my-photo.png" alt="my-photo" />
+          <img src="./assets/images/my-photo.png" alt="my-photo" />
         </div>
 
         <div class="text-animate">

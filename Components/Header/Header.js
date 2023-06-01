@@ -7,7 +7,7 @@ export const renderUpHeader = () => {
   ANCHORS.find((anchor) => {
     anchor.name === "contact";
     const upHeaderTemplate = `
-  <img src="./public/assets/icons/logo/white-logo.png" alt="Home" class="home-icon" />
+  <img src="./assets/icons/logo/white-logo.png" alt="Home" class="home-icon" />
   <a href="${anchor.href}" class="contact-anchor">${anchor.text}</a>
   `;
     upHeader.innerHTML = upHeaderTemplate;

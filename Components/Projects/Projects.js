@@ -23,7 +23,7 @@ export const renderProjects = (filteredProjects = PROJECTS) => {
           <p>${project.description}</p>
         </div>
         <div class="tools-title">
-          <img src="./public/assets/icons/instrumentos.png" alt="my-photo" />
+          <img src="./assets/icons/instrumentos.png" alt="my-photo" />
           <p>Built with:</p>
         </div>
         <div class="tools">
