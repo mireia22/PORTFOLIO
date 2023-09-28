@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 0.5rem;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .first-text > h3 {
@@ -26,7 +26,7 @@
   height: 12rem;
   border: 5px solid var(--secondary-color-blue);
   background: -webkit-linear-gradient(
-    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.628),
     rgba(6, 90, 96, 0.7)
   );
   -webkit-text-fill-color: transparent;
@@ -64,56 +64,42 @@
 }
 
 @media screen and (min-width: 1023px) {
-  .about-section {
-    display: flex;
-    flex-direction: column;
-  }
   .about-text {
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
 
   .first-text {
     align-items: center;
-    font-size: 1.3rem;
-    gap: 2rem;
+    font-size: 1rem;
   }
 
   .first-text > h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .first-text > h1 > span {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   .my-image {
-    width: 20rem;
-    height: 20rem;
+    width: 11rem;
+    height: 11rem;
   }
   .my-image img {
-    width: 25rem;
-    height: 19.5rem;
-    object-position: -2.75rem 0rem;
+    width: 14.5rem;
+    height: 10.5rem;
+    object-position: -2.1rem 0rem;
   }
 
   .text-animate > h1 {
-    font-size: 4.5rem;
-    line-height: 7rem;
+    font-size: 4rem;
+    line-height: 5rem;
     margin-top: 0rem;
   }
 
-  .about-text > p {
-    margin-top: 0rem;
-    justify-self: center;
-    padding: 2rem 10rem;
-    font-size: 1.1rem;
-  }
-
-  .about-contact-anchor {
-    max-width: 10rem;
-    margin: auto;
-    margin-bottom: 1rem;
+  .about-text {
+    margin-bottom: 0rem;
   }
 }

@@ -19,7 +19,8 @@ export const renderAbout = () => {
         </div>
 
         <div class="text-animate">
-          <h1>full-stack developer</h1>
+          <h1>full-stack </h1>
+          <h1>developer</h1>
         </div>
         
         <p>Problem solver, well-organised person with high attention to detail. 
@@ -28,7 +29,6 @@ export const renderAbout = () => {
           Interested in the entire fullstack spectrum and working on ambitious projects with interesting people.
         </p>
       </div>
-      <a href="${aboutAnchor.href}" class="about-contact-anchor">${aboutAnchor.text2}</a>
   `;
 
   aboutSection.innerHTML += aboutTemplate;

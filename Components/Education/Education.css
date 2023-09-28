@@ -20,6 +20,9 @@
     rgba(77, 25, 77, 0.9) 30%,
     rgba(6, 90, 96, 0.9) 70%
   );
+  > h3 {
+    color: var(--font-color);
+  }
 }
 
 .year {
@@ -55,16 +58,21 @@
 @media screen and (min-width: 1023px) {
   .education-box {
     display: flex;
-    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     gap: 0rem;
   }
 
   .content {
-    width: 22rem;
-    height: 18rem;
+    width: 15rem;
+    min-height: 19rem;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1rem;
     border: 1px solid var(--font-color);
+  }
+
+  .education-content:first-of-type h3 {
+    color: var(--font-color);
   }
 }

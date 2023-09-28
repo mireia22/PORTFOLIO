@@ -22,8 +22,8 @@
 }
 
 .skill-icon {
-  width: 6.5rem;
-  height: 6.5rem;
+  width: 6rem;
+  height: 6rem;
 }
 
 .skill-icon > img {
@@ -37,9 +37,15 @@
   font-weight: 500;
 }
 
-@media screen and (min-widht: 1023px) {
+@media screen and (min-width: 1023px) {
+  .category {
+    padding: 1rem;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
   .skill-icon {
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
+    height: 3rem;
   }
 }

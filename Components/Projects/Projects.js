@@ -16,7 +16,7 @@ export const renderProjects = (filteredProjects = PROJECTS) => {
   filteredProjects.forEach((project) => {
     const projectsBox = document.querySelector(".projects-box");
     const projectHTML = `
-      <div class="project-container">
+      <li class="project-container">
         <div class="project-text">
           <h1>${project.title}</h1>
           <h3>${project.supratitle}</h3>

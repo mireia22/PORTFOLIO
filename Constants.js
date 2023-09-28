@@ -156,18 +156,8 @@ export const PROJECTS = [
     app: "https://example.com/task-tool",
   },
   {
-    supratitle: "Education",
-    title: "Language Learning App",
-    description:
-      "A mobile app for learning languages with vocabulary quizzes, flashcards, and pronunciation practice.",
-    tools: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Next.js"],
-    preview: "./assets/images/projects/language.jpg",
-    code: "https://github.com/your-username/language-learning-app",
-    app: "https://example.com/language-app",
-  },
-  {
     supratitle: "Fitness",
-    title: "Workout and Nutrition Tracker",
+    title: "Workout  Tracker",
     description:
       "An app for tracking daily calorie intake, setting nutritional goals, and providing meal suggestions.",
     tools: [

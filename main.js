@@ -11,13 +11,16 @@ const defaultRender = () => {
   const main = document.querySelector(".app");
 
   const mainTemplate = `
-      ${renderUpHeader()}
-      ${renderDownHeader()}
-      ${renderFooter()}
-    `;
+    ${renderUpHeader()}
+    ${renderDownHeader()}
+    ${renderFooter()}
+  `;
+
   main.innerHTML += mainTemplate;
+
   const pageContent = document.querySelector("#page-content");
-  pageContent + renderHero();
+  pageContent.innerHTML = "";
+  renderHero();
 };
 
 const renderAnchoresContent = () => {
@@ -30,15 +33,15 @@ const renderAnchoresContent = () => {
       pageContent.innerHTML = "";
 
       if (linkHref.includes("/skills")) {
-        pageContent + renderSkills();
+        renderSkills();
       } else if (linkHref.includes("/education")) {
-        pageContent.innerHTML + renderStudies();
+        renderStudies();
       } else if (linkHref.includes("/projects")) {
-        pageContent + renderProjects();
+        renderProjects();
       } else if (linkHref.includes("/about")) {
-        pageContent + renderAbout();
+        renderAbout();
       } else if (linkHref.includes("/contact")) {
-        pageContent + renderContact();
+        renderContact();
       }
     });
   });
